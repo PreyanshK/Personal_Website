@@ -177,7 +177,7 @@ body {
 
 .home-image {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/beach_new.jpg");
+    url("images/landing_wallpaper.jpg");
   position: relative;
   height: 100vh;
   background-size: cover;
@@ -283,25 +283,17 @@ body {
 .skills-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 0 auto;
 }
 
-.skills-grp-1,
-.skills-grp-2 {
-  display: flex;
+.skills-container ul {
+  margin: 20px 30px;
+  width: 150px;
 }
 
 .skills-list {
-  margin: 20px 30px;
   list-style: none;
-}
-
-.skills-list:nth-child(odd) {
-  margin-right: 20px;
-}
-
-.skills-list:nth-child(even) {
-  margin-left: 20px;
 }
 
 .skills-list li:nth-child(1) {
@@ -495,12 +487,12 @@ body {
   color: #555;
   font-size: 25px;
   margin: 10px 20px;
-  transition: color 0.4s;
+  transition: color 0.3s;
   cursor: pointer;
 }
 
 .social-media i:hover {
-  color: #3b5998;
+  color: #d32f2f;
 }
 
 /*--- Footer Section ---*/
@@ -529,6 +521,10 @@ body {
   border-radius: 100%;
   display: flex;
   cursor: pointer;
+}
+
+.up-btn:hover {
+  background-color: #ededed;
 }
 
 .up-btn a {
