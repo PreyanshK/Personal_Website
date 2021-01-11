@@ -124,21 +124,23 @@
 
         <ul class="skills-list wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.4s">
           <li>Frameworks</li>
-          <li>jQuery</li>
+          <li>React</li>
           <li>React Native</li>
           <li>Node.js</li>
-          <li>Bootstrap</li>
-          <li>Pandas</li>
+          <li>Express.js</li>
+          <li>Material-UI</li>
+          <li>Selenium</li>
+          <li>JUnit</li>
         </ul>
 
         <ul class="skills-list wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.6s">
           <li>Tools</li>
           <li>Git & Github</li>
-          <li>Chrome DevTools</li>
-          <li>Unity 2D</li>
-          <li>Jupyter Notebook</li>
-          <li>SSH</li>
-          <li>PuTTY</li>
+          <li>MongoDB</li>
+          <li>Firebase</li>
+          <li>Postman</li>
+          <li>Heroku</li>
+          <li>Unity Game Engine</li>
         </ul>
 
         <ul class="skills-list wow fadeIn" data-wow-duration="0.8s" data-wow-delay="0.8s">
@@ -162,19 +164,31 @@
       <div class="work-timeline">
         <ul>
           <li class="job-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-            <h3>PC Support Analyst <a href="https://www.agf.com/ca/en/index.jsp">@ AGF Investments Inc.</a></h3>
-            <h4>Jan 2020 - April 2020</h4>
+            <h3>Junior Web Developer <a href="https://www.agf.com/ca/en/index.jsp">@ AGF Investments Inc.</a></h3>
+            <h4>Sep 2020 - Dec 2020</h4>
 
             <p>
-              Imaged Windows 10 laptops using PXE Boot and successfully
-              facilitated hundreds of employees to work from home during the
-              COVID-19 pandemic.
+              Built web applications on the server-side using Java/J2EE and Spring Boot
             </p>
 
             <p>
-              Troubleshot technical issues such as providing on-call support
-              for remote users, training users to use Cisco WebEx Meetings,
-              and debugging software issues on Windows applications.
+              Wrote 500+ unit tests for the corporate website using JUnit and Selenium
+              to test RESTful web services, UI/UX, and validate financial info based on
+              the account type
+            </p>
+          </li>
+          <li class="job-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+            <h3>PC Support Analyst <a href="https://www.agf.com/ca/en/index.jsp">@ AGF Investments Inc.</a></h3>
+            <h4>Jan 2020 - Apr 2020</h4>
+
+            <p>
+              Imaged Windows 10 workstations via PXE Boot and CloneZilla to transition
+              more than 200 employees to work from home during the COVID-19 pandemic
+            </p>
+
+            <p>
+              Performed on-call support via Remote Desktop Protocol (RDP) and Command Prompt to
+              debug errors, install operating systems, and run system diagnosis on workstations
             </p>
           </li>
 
@@ -192,6 +206,17 @@
               Illustrator.
             </p>
           </li>
+
+          <li class="job-item wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
+            <h3>C++ Programming Club Facilator <span>@ SATEC @ W.A Porter C.I.</span></h3>
+            <h4>Sep 2018 - Jan 2019</h4>
+
+            <p>
+              Taught C/C++ coding fundamentals to 25+ students by coordinating with teachers
+              to create a meaningful curriculum filled with STEM topics such as Arduino workshops and
+              CCC contest preparation.
+            </p>
+          </li>
         </ul>
       </div>
     </div>
@@ -205,21 +230,49 @@
       </div>
 
       <div class="project-container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
-        <img class="project-img" src="images/webmap.PNG" alt="project-img01" />
+        <img class="project-img" src="images/WhatsApp Clone.jpeg" alt="project-img01" />
 
         <div class="project-info" id>
-          <h3>Web Map on Browser</h3>
+          <h3>WhatsApp Clone</h3>
           <p>
-            I used <span>Python’s Folium</span> library to generate an
-            interactive world map that displays geographical features with
-            popups and has color-coded countries based on population. I created data frames using <span>Pandas</span> to
-            read data from CSV and JSON files, and display it on a Leaflet map.
+            Developed a real-time messaging application that allows users to communicate in public rooms through text
+            and emoji.
+            It is built using the <span>MERN</span> stack, which includes <span>Nodes.js and Express.js</span> for the
+            backend to
+            communicate with the frontend built in <span>React</span> via REST API requests, and stores all chats and
+            messages in
+            the <span>MongoDB</span> database.
+          </p>
+
+          <p>
+            Used <span>Pusher</span> to provide the real-time functionality and <span>Redux</span>
+            for improved state management of the users and chats.
           </p>
 
           <div class="link-container">
-            <a href="https://github.com/PreyanshK/Interactive_Webmap" class="external-link"><i
+            <a href="https://github.com/PreyanshK/whatsapp-mern-frontend" class="external-link"><i
                 class="fab fa-github"></i></a>
-            <a href="https://preyanshk.github.io/Interactive_Webmap/" class="external-link"><i
+            <a href="https://whatsapp-clone-9b278.web.app/" class="external-link"><i
+                class="fas fa-external-link-alt"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-container wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+        <img class="project-img" src="images/COVID-19 Tracker.jpeg" alt="project-img01" />
+
+        <div class="project-info" id>
+          <h3>COVID-19 Tracker</h3>
+          <p>
+            Created a web app using <span>React</span>, Coronavirus API, Leaflet, and <span>Firebase</span>
+            to provide a live statistics dashboard, an interactive world map, and
+            graphs to showcase the timeline of the global COVID-19 cases
+          </p>
+
+          <div class="link-container">
+            <a href="https://github.com/PreyanshK/covid-19-tracker-app" class="external-link"><i
+                class="fab fa-github"></i></a>
+            <a href="https://covid-19-tracker-dde6a.web.app/" class="external-link"><i
                 class="fas fa-external-link-alt"></i></a>
           </div>
         </div>
@@ -266,12 +319,9 @@
         <div class="project-info" id>
           <h3>Cap's Odyssey</h3>
           <p>
-            Built the second level of the game and incorporated
-            <span>C#</span> scripts with <span>Unity 2D</span> which
-            programmed character movement. I also designed the UI, characters
-            and the environment for the game. Cap’s Odyssey is a single-player
-            2D platformer that has a story mode consisting of three chapters
-            and mini puzzles.
+            A 2D platformer game that provides a multi-level story mode with character powerups,
+            interactive items, and mini puzzles. Developed using
+            <span>Unity 2D Game Engine</span> and <span>C#.NET</span>.
           </p>
         </div>
       </div>
